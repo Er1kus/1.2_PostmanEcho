@@ -19,6 +19,6 @@ public class PostmanEchoTest1 {
                 .statusCode(200)
                 .body("data", equalTo("some data"))
                 .header("Content-length", "426")
-                .header("Content-Type", "application/json; charset=utf-9");
+                .header("Content-Type", "application/json; charset=utf-8");
     }
 }
